@@ -50,7 +50,7 @@ class _ChooseBloodType extends StatelessWidget
                     height: 2.0,
                     child: Container(
                       decoration: new BoxDecoration(
-                        color: Color(0xFFD80032),
+                        color: Color(0xFFDB231D),
                       ),
                     ),
                   ),
@@ -100,7 +100,7 @@ class _ChooseBloodType extends StatelessWidget
                                   child: Padding(
                                     padding: const EdgeInsets.only(top:30.0),
                                     child:
-                                    Text(bloodType, style: TextStyle(color: Color(0xFFD80032), fontSize: 40, fontWeight: FontWeight.bold)),
+                                    Text(bloodType, style: TextStyle(color: Color(0xFFDB231D), fontSize: 40, fontWeight: FontWeight.bold)),
                                   ),
                                 ),
                               ],
@@ -146,7 +146,7 @@ class _ChooseBloodType extends StatelessWidget
                           ),
                         );
                       },
-                      color: Color(0xffD80032),
+                      color: Color(0xffDB231D),
                       child: Text('Continue', style: TextStyle(color: Colors.white, fontSize: 18,),
                       ),
                     ),
@@ -172,7 +172,7 @@ class _ChooseLogin extends StatelessWidget{
                         height: MediaQuery.of(context).size.height/2.0,
                         child: Container(
                           decoration: new BoxDecoration(
-                            color: Color(0xffD80032),
+                            color: Color(0xffDB231D),
                             borderRadius: new BorderRadius.only(
                               bottomRight: const Radius.circular(34.0),
                               bottomLeft: const Radius.circular(34.0),
@@ -197,7 +197,7 @@ class _ChooseLogin extends StatelessWidget{
                               ),
                             );
                           },
-                          color: Color(0xffD80032),
+                          color: Color(0xffDB231D),
                           child: Text('Login with Phone Number', style: TextStyle(color: Colors.white),
                           ),
                         ),
@@ -266,7 +266,7 @@ class _WalkThrough extends State<WalkThrough> {
       height: 15.0,
       width: 15.0,
       decoration: BoxDecoration(
-        color: isActive ? Color(0xFFD80032) : Color(0xFFE4E4E4),
+        color: isActive ? Color(0xFFDB231D) : Color(0xFFE4E4E4),
         borderRadius: BorderRadius.all(Radius.circular(12)),
       ),
     );
@@ -314,7 +314,7 @@ class _WalkThrough extends State<WalkThrough> {
                             SizedBox(height: 30.0),
                             Text(
                               'YOU\'RE A HERO!',
-                              style: TextStyle(color: Color(0xffD80032), fontSize: 20.0),
+                              style: TextStyle(color: Color(0xffDB231D), fontSize: 20.0),
                             ),
                             SizedBox(height: 15.0),
                             Text(
@@ -341,7 +341,7 @@ class _WalkThrough extends State<WalkThrough> {
                             SizedBox(height: 30.0),
                             Text(
                               'IDENTIFY YOUR BLOOD',
-                              style: TextStyle(color: Color(0xffD80032), fontSize: 20.0),
+                              style: TextStyle(color: Color(0xffDB231D), fontSize: 20.0),
                             ),
                             SizedBox(height: 15.0),
                             Text(
@@ -368,7 +368,7 @@ class _WalkThrough extends State<WalkThrough> {
                             SizedBox(height: 30.0),
                             Text(
                               'DONATE TO OTHERS',
-                              style: TextStyle(color: Color(0xffD80032), fontSize: 20.0),
+                              style: TextStyle(color: Color(0xffDB231D), fontSize: 20.0),
                             ),
                             SizedBox(height: 15.0),
                             Text(
@@ -416,7 +416,7 @@ class _WalkThrough extends State<WalkThrough> {
                                   );
                                 }
                               },
-                              color: Color(0xffD80032),
+                              color: Color(0xffDB231D),
                               elevation: 0.0,
                               textColor: Colors.white,
                               child: const Text('NEXT', style: TextStyle(fontSize: 17)),
