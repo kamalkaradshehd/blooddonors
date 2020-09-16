@@ -69,7 +69,12 @@ class _SignUp extends State<SignUp>
                       ),
                       Padding(
                         padding: const EdgeInsets.only(top:20.0, left: 20.0, right: 20),
-                        child:
+                        child: Text(
+                          'First Name',
+                          style: TextStyle(fontWeight: FontWeight.w600,
+                            fontSize: 14.0,
+                          ),
+                        ),
                       ),
                     ],
                   ),
